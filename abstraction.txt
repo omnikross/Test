@@ -1,0 +1,20 @@
+= Abstraction
+
+== Answers
+
+1. ==Stacks and queues are abstractions in that they describe how a collection of data should behave without prescribing
+    low-level implementation details. In particular, a stack is characterized by its support for operations like push and pop,
+    which behave in a last-in-first-out fashion, while a queue is characterized by its support for operations like enqueue and dequeue,
+    which behave in a first-in-first-out fashion.
+
+2. ==lock will display text on the screen
+
+3. ==Strings are objects that represent sequences of characters.
+    The standard string class provides support for such objects with an interface similar to that of a standard container of bytes, 
+    but adding features specifically designed to operate with strings of single-byte characters.
+
+== Debrief
+
+1. TODO
+
+2. about 10 minutes

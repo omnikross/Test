@@ -1,0 +1,15 @@
+= Bleep
+
+== Answers
+
+1. ==Because only 4 bytes are allocated for word, 5-letter words like puppy and 6-letter words like kitten will overflow that buffer.
+    The value of bleep will thus be not false, and so bleep will effectively be true.
+
+2. ==Just use for word GetString
+
+== Debrief
+
+1. TODO
+
+2. 5 vinutes
+

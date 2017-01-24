@@ -1,0 +1,21 @@
+= Trusting `clang`
+
+== Answers
+
+1. We can change 
+if(c == 'n')
+        return('\n');
+    and get this
+if(c == 'n' || c == 'N')
+        return('\n');
+        
+2. A Trojan horse could already be compiled into your installation of clang, the code for which has 
+been removed from clang's open source. And even if the source code for clang not contain "horse",
+the compiler which compile your clang could already be compromised, in which case it could 
+admit a Trojan horse into your own compilation.
+
+== Debrief
+
+1. TODO
+
+2. TODO

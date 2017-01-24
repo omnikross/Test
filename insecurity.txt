@@ -1,0 +1,42 @@
+= Insecurity
+
+== Answers
+
+1. ==You can simply open the file with ordinary text editor and read password.8-character password is short and anybody can write   
+    program to crack it.
+2. ==#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct
+{
+    char password[8];
+}
+FILEHEADER;
+
+int main(int argc, char *argv[])
+{   FILE *inptr = fopen(argv[1], "r");
+    if (inptr == NULL)
+    {
+        return 1;
+    }
+    FILE *outptr = fopen(argv[2], "w");
+    if (outptr == NULL)
+    {
+        fclose(inptr);
+        return 1;
+    }
+    fseek(inptr, sizeof(FILEHEADER), SEEK_SET);
+    char c;
+    while (fread(&c, sizeof(char), 1, inptr) == 1)
+    {
+        fwrite(&c, sizeof(char), 1, outptr);
+    }
+    fclose(outptr);
+    fclose(inptr);
+}
+
+== Debrief
+
+1. TODO
+
+2. TODO

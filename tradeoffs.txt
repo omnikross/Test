@@ -1,0 +1,21 @@
+= Tradeoffs
+
+== Answers
+
+1a. Lists can be searched with binary or linear search.
+
+1b. Binary search work more quckly(if list is sorted)
+
+1c. Linear search more easy to implement.
+
+2a. We can use hash tables or trie for names reference.
+
+2b. A hash tables use less memory(trie may have a lot of NULL pointers).
+
+2c. Trie work more quckly because speed does not depend on the number of names.
+
+== Debrief
+
+1. TODO
+
+2. TODO

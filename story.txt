@@ -1,0 +1,21 @@
+= Story to Share
+
+== Answers
+
+1. If they used an array they must know the length of the array(number of users).Not so mutch yser can read Medium same time or they all can do it 
+    at similar time.In first-medium waste of memory; In second- they have to reallocate the array dynamically.
+
+2. Because with linked list Medium just waste a lot of time for a linear search to check wheher a user has already read some post.
+
+3. If they use a trie they will have quite a few NULL pointers  and in this case space-saving common prefixes would be rare.
+
+4. Because Medium use Bloom filter, which have risk false positives(not negative). Bloom filtee-array of bits each initialized to 0,
+    some of which are then set to 1 with multiple hash functions.When a user reads post, Medium hashes that post’s ID with multiple hash functions. 
+    When someone reads smth output of those hash functions as indices into the array and give them index 1.But some  IDs might collectively hash to those same indices
+    and give to us fasle.
+
+== Debrief
+
+1. TODO
+
+2. TODO

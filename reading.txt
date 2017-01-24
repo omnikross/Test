@@ -1,0 +1,19 @@
+= Reading Someone Else's Code
+
+== Answers
+
+1. Get_char must return char value, like CHAR_MAX-const.
+
+2.  The second char  will be assigned a value if the user has inputted two or more characters, 
+    in which case sscanf will return 2 for which our condition can check.
+
+3. If they not declared as static, any program that links against the library can change their values and break it.
+
+4. When  we use Get_String which allocates memory for a string adds that memory’s address to a array 
+    before returning adress.Then, after main-exit(teardown) iterates aver array and frees memory.
+
+== Debrief
+
+1. TODO
+
+2. TODO

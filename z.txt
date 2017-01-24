@@ -1,0 +1,38 @@
+= Z
+
+== Answers
+
+1. 
+function main()
+{   
+    $fv <- get()
+    $sv <- get()
+    if(not($fv < sv))
+    {
+        if(not($sv < $fv)
+        {
+            print("equal")
+        }
+    }
+}
+
+2. 
+function main()
+{   
+     val(get())
+}   
+    function val($a)
+    {
+        if($a > -1)
+        {
+            print($a)
+            print("\n")
+            val(add($a, -1))
+        }
+    }
+}
+== Debrief
+
+1. TODO
+
+2. TODO

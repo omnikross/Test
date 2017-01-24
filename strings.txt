@@ -1,0 +1,25 @@
+= Restructuring Strings
+
+== Answers
+
+1. The length of string can be identified like O(1), unlike the O(n) where n line length
+
+2. It is a 8-bit value so there can't be more then 255 characters.
+
+3. 
+#include <string.h>
+
+size_t strlen(const char *s)
+{
+if (s == NULL)
+    {
+        return 0;
+    }
+    return (size_t) s[0];
+}
+
+== Debrief
+
+1. TODO
+
+2. TODO
